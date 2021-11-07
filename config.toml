@@ -1,5 +1,5 @@
-baseURL = "http://htaidirt.com/"
+baseURL = "https://htaidirt.com/"
 languageCode = "en-us"
-title = "Personal blog for Hassen Taidirt"
+title = "Personal blog of Hassen Taidirt"
 theme = ["github.com/nodejh/hugo-theme-mini"]
 
