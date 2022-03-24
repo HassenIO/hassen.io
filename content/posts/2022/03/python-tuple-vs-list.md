@@ -1,8 +1,8 @@
 ---
 title: "[Python] Tuple vs. List"
 date: 2022-03-23T00:42:00+01:00
-draft: true
-summary: This is a short article to compare pythonic tuples vs lists.
+draft: false
+summary: This is a short ar ticle to compare pythonic tuples vs lists.
 ---
 
 ![A Stack of books](/2022/03/hero-stack-of-books.jpg "A stack of books")
