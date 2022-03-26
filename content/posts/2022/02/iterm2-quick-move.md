@@ -38,15 +38,3 @@ In the key mappings section, find the `⌥ ←` action -> Double click. Set the 
 Click on OK. You can jump words backward with `⌥ ←`
 
 ![Jump backward words](/2022/02/step-3.png "Jump backward words")
-
-# BONUS: Delete the whole line
-
-In the key mappings section, click on the `+` button like shown below, and set the following:
-
-- Keyboard Shortcut: Keep `⌘ ⌫`
-- Action: `Send Hex Code`
-- Esc+: `0x15`
-
-Click on OK. You can delete the line with `⌘ ⌫`
-
-![Delete line in iTerm2](/2022/02/step-4.png "Delete line in iTerm2")
