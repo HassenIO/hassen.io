@@ -2,8 +2,7 @@ baseURL = "https://htaidirt.com/"
 languageCode = "en-us"
 title = "Personal blog of Hassen Taidirt"
 theme = ["github.com/nodejh/hugo-theme-mini"]
-googleAnalytics: G-CBM4L789H1
+googleAnalytics = "G-CBM4L789H1"
 
-params:
-	enableGoogleAnalytics: true
-
+[params]
+  enableGoogleAnalytics = true
