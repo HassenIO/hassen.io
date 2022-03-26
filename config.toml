@@ -6,3 +6,5 @@ googleAnalytics = "G-CBM4L789H1"
 
 [params]
   enableGoogleAnalytics = true
+  enableRSS = true
+  showToc = true
