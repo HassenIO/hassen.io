@@ -1,5 +1,5 @@
 ---
-title: "Jump forward and backward words in iTerm2"
+title: "iTerm2, Episode 1: Jump forward and backward words in iTerm2"
 date: 2022-02-08T19:12:00+01:00
 draft: false
 summary: A quick post showing my tips on quickly jumping words in iTerm2

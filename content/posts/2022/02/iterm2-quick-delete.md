@@ -1,5 +1,5 @@
 ---
-title: "Delete words and line in iTerm2"
+title: "iTerm2, Episode 2: Delete words and line in iTerm2"
 date: 2022-02-18T21:56:00+01:00
 draft: false
 summary: A quick post showing my iTerm2 settings to delete words and a line
