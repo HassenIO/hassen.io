@@ -1,10 +1,18 @@
 baseURL = "https://hassen.io/"
 languageCode = "en-us"
-title = "Personal blog of Hassen Taidirt"
+title = "Hassen Taidirt"
 theme = ["github.com/nodejh/hugo-theme-mini"]
 googleAnalytics = "G-CBM4L789H1"
+defaultContentLanguage = "en"
+paginate = 3
 
 [params]
+  author = "Hassen Taidirt"
+  bio = "DevOps, Data and ML aficionado"
   enableGoogleAnalytics = true
   enableRSS = true
   showToc = true
+
+[social]
+  github = "https://github.com/HassenIO"
+  twitter = "https://twitter.com/htaidirt"
