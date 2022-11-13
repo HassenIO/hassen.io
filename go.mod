@@ -1,4 +1,4 @@
-module github.com/htaidirt/htaidirt.com
+module github.com/HassenIO/hassen.io
 
 go 1.17
 

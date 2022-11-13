@@ -19,7 +19,7 @@ I’m a developer. Most of my learning was self-done, so I evolved depending on 
 
 I’m also passionate about productivity hacks. My library includes books like “12 Week Year”, “Deep Work” and “The Power of Habits”.
 
-I’ll mostly share stuff about those topics, hoping to be at least useful to one person. If you see any topic that you want me to share my thoughts on or any subject you want me to cover, please leave me a comment, and I’ll do my best being helpful. Some of my previous writings can be found on [Medium](https://medium.com/@htaidirt), and I also try to share [my codes on Github](https://github.com/htaidirt) if I think it can be of any help.
+I’ll mostly share stuff about those topics, hoping to be at least useful to one person. If you see any topic that you want me to share my thoughts on or any subject you want me to cover, please leave me a comment, and I’ll do my best being helpful. Some of my previous writings can be found on [Medium](https://medium.com/@htaidirt), and I also try to share [my codes on Github](https://github.com/HassenIO) if I think it can be of any help.
 
 Finally, I’m living near Paris, in France, I’m a father of two kids, and a lucky husband of a wonderful woman.
 

@@ -1,4 +1,4 @@
-baseURL = "https://htaidirt.com/"
+baseURL = "https://hassen.io/"
 languageCode = "en-us"
 title = "Personal blog of Hassen Taidirt"
 theme = ["github.com/nodejh/hugo-theme-mini"]
