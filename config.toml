@@ -8,7 +8,7 @@ paginate = 3
 
 [params]
   author = "Hassen Taidirt"
-  bio = "DevOps, Data and ML aficionado"
+  bio = "Developer, DevOps and Data aficionado"
   enableGoogleAnalytics = true
   enableRSS = true
   showToc = true
