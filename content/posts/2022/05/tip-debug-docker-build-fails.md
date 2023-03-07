@@ -5,6 +5,10 @@ draft: false
 summary: Tips on how to debug docker build failure.
 ---
 
+![A sinked ship. Photo by Emma Watson on Unsplash](/2022/05/unsplash-sink-ship.jpg "A sinked ship")
+
+Hello world!
+
 There are some issues that looks simple, stupid, however they take hours if not days to fix.
 
 One example I had recently was with a failing docker build. "It should work! It must work!"
