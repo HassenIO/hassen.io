@@ -4,11 +4,11 @@ title = "Hassen Taidirt"
 theme = ["github.com/nodejh/hugo-theme-mini"]
 googleAnalytics = "G-CBM4L789H1"
 defaultContentLanguage = "en"
-paginate = 3
+paginate = 6
 
 [params]
   author = "Hassen Taidirt"
-  bio = "Developer, DevOps and Data aficionado"
+  bio = "DevOps, innovation and dreams"
   enableGoogleAnalytics = true
   enableRSS = true
   showToc = true
