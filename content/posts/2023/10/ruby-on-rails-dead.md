@@ -109,5 +109,5 @@ Cheers,
 
 Hassen
 
-![How SNS works](/2023/10/collection-car.jpg)
+![I want this car](/2023/10/collection-car.jpg)
     
