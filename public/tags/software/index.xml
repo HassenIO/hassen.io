@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software on Hassen Taidirt</title>
+    <link>http://localhost:1313/tags/software/</link>
+    <description>Recent content in Software on Hassen Taidirt</description>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Oct 2023 20:23:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rails: The Force Awakens - Why ReactJS Got Left in the Dust</title>
+      <link>http://localhost:1313/posts/2023/10/rails-the-force-awaikens/</link>
+      <pubDate>Mon, 23 Oct 2023 20:23:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2023/10/rails-the-force-awaikens/</guid>
+      <description>Part II of our series about Rails awakens.</description>
+    </item>
+    <item>
+      <title>Ruby on Rails is Dead!... Not So Fast, My Friend!</title>
+      <link>http://localhost:1313/posts/2023/10/ruby-on-rails-dead/</link>
+      <pubDate>Tue, 10 Oct 2023 21:58:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2023/10/ruby-on-rails-dead/</guid>
+      <description>Talking about Ruby on Rails, and how it shines now more than before.</description>
+    </item>
+    <item>
+      <title>[Python] Tuple vs. List</title>
+      <link>http://localhost:1313/posts/2022/03/python-tuple-vs-list/</link>
+      <pubDate>Wed, 23 Mar 2022 00:42:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2022/03/python-tuple-vs-list/</guid>
+      <description>This is a short ar ticle to compare pythonic tuples vs lists.</description>
+    </item>
+    <item>
+      <title>Deploy a REST API with Github Actions on Cloud Run</title>
+      <link>http://localhost:1313/posts/2020/09/deploy-a-rest-api-with-github-actions-on-cloud-run/</link>
+      <pubDate>Tue, 22 Sep 2020 00:51:25 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2020/09/deploy-a-rest-api-with-github-actions-on-cloud-run/</guid>
+      <description>Thanks to Github Actions and Cloud Run, it&amp;rsquo;s easier than ever to deploy Serverless REST APIs to the cloud. This is a step-by-step guide.</description>
+    </item>
+    <item>
+      <title>Strategic Testing</title>
+      <link>http://localhost:1313/posts/2019/03/strategic-testing/</link>
+      <pubDate>Wed, 06 Mar 2019 00:21:51 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019/03/strategic-testing/</guid>
+      <description>Discussing what testing is for developers, and how to strategize tests given     projects and needs.</description>
+    </item>
+  </channel>
+</rss>

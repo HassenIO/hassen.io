@@ -3,6 +3,7 @@ title: "iTerm2 tips, Episode 2: Delete words and line in iTerm2"
 date: 2022-02-18T21:56:00+01:00
 draft: false
 summary: A quick post showing my iTerm2 settings to delete words and a line
+tags: ["Tips"]
 ---
 
 tl;dr: This is a short practical post on how to delete words and line in iTerm2.

@@ -3,6 +3,7 @@ title: "Demystifying Google Cloud IAM"
 date: 2020-04-19T00:37:43+01:00
 draft: false
 summary: No matter which cloud provider you choose, you can't escape working with its IAM service. Let's recall the basics and start fresh with IAM on GCP.
+tags: ["Cloud Computing"]
 ---
 
 ![Anatomy of a heart](/2020/04/hero-anatomy.jpg "Anatomy of a heart from unsplash")
@@ -90,7 +91,7 @@ At the beggining, things were quite simple on GCP. There were only 3 roles (note
 
 - **Viewer** role grants access to read only actions on GCP resources.
 - **Editor** role includes a read and write actions on GCP resources. By write actions, I mean modifying states of resources like creating a bucket and adding objects to it.
-- **Owner** role includes __Editor__ role permissions and the ability to manage roles and permissions on the project, and set up billings.
+- **Owner** role includes **Editor** role permissions and the ability to manage roles and permissions on the project, and set up billings.
 
 Note that there is a restriction on authorizations from viewer to editor to owner, like cocentric circles:
 
@@ -114,9 +115,9 @@ Now in addition to primitive role, you now have access to **Predifined roles** a
 
 Here is an example of Google Pub/Sub predefined role:
 
-| Role | Title | Description | Permissions | Lowest Resource |
-| --- | --- | --- | --- | --- |
-| roles/pubsub.subscriber | Pub/Sub Subscriber | Provides access to consume messages from a subscription and to attach subscriptions to a topic. | pubsub.snapshots.seek <br> pubsub.subscriptions.consume <br> pubsub.topics.attachSubscription | Topic |
+| Role                    | Title              | Description                                                                                     | Permissions                                                                                   | Lowest Resource |
+| ----------------------- | ------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------- |
+| roles/pubsub.subscriber | Pub/Sub Subscriber | Provides access to consume messages from a subscription and to attach subscriptions to a topic. | pubsub.snapshots.seek <br> pubsub.subscriptions.consume <br> pubsub.topics.attachSubscription | Topic           |
 
 In this example, the `roles/pubsub.subscriber` role includes three permissions: `pubsub.snapshots.seek`, `pubsub.subscriptions.consume` and `pubsub.topics.attachSubscription`. As you can see, all of three belongs to the same resource `pubsub.*`.
 
@@ -165,4 +166,3 @@ Keep the previous complete schema at hand, and come back to it when things get c
 Cheers,
 
 Hassen
-

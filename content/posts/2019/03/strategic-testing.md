@@ -3,10 +3,10 @@ title: "Strategic Testing"
 date: 2019-03-06T00:21:51+01:00
 draft: false
 summary: Discussing what testing is for developers, and how to strategize tests given     projects and needs.
+tags: ["Software"]
 ---
 
-![Chinese board game](/2019/03/hero-ryan-thomas-ang-542390-unsplash.jpg "Chinese board game")
----
+## ![Chinese board game](/2019/03/hero-ryan-thomas-ang-542390-unsplash.jpg "Chinese board game")
 
 > Nota: This article was first published on Medium. You can read the exact same content [by following this link](https://medium.com/@htaidirt/strategic-testing-dd1980d1a59a).
 
@@ -78,4 +78,3 @@ Cheers,
 Hassen
 
 ![Photo by Mercedes Alvarez on Unsplash](/2019/03/Wall-Unsplash.jpg "Wall from Unsplash")
-

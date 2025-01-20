@@ -3,6 +3,7 @@ title: "Debug a Docker build failure"
 date: 2022-05-08T11:24:00+01:00
 draft: false
 summary: Tips on how to debug docker build failure.
+tags: ["Docker", "Tips"]
 ---
 
 ![A sinked ship. Photo by Emma Watson on Unsplash](/2022/05/unsplash-sink-ship.jpg "A sinked ship")
@@ -32,6 +33,7 @@ The image hashes was an information available in the legacy builder. It turns ou
 In our example, we have:
 
 ```bash
+
 ```
 
 Here we see that the last successful layer has the hash ``.
@@ -39,6 +41,7 @@ Here we see that the last successful layer has the hash ``.
 We can run into that image using `docker run` like the following:
 
 ```bash
+
 ```
 
 ## Final words

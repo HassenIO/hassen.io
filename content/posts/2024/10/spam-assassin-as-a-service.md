@@ -3,9 +3,10 @@ title: "Spam Assassin as a Service"
 date: 2024-10-22T08:01:15+01:00
 draft: false
 summary: Making SpamAssassin available through an API
+tags: ["API", "docker"]
 ---
 
-![Gmail](/2024/10/unsplash-gmail.jpg "Just Gmail")
+![Just Gmail](/2024/10/unsplash-gmail.jpg "Just Gmail")
 
 Hello world!
 

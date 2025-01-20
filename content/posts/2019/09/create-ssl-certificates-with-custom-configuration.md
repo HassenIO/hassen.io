@@ -3,6 +3,7 @@ title: "Create SSL Certificates with Custom Configuration"
 date: 2019-09-28T00:31:18+01:00
 draft: false
 summary: A quick post describing how to create SSL certificate with custom configuration, locally using openssl.
+tags: ["Security"]
 ---
 
 ![Locks from Unsplash](/2019/09/hero-markus-spiske-Jjue0ESkXAU-unsplash.jpg "Locks on a bridge")
@@ -66,4 +67,3 @@ You should be able to find your information and check if you didn’t miss somet
 Cheers,
 
 Hassen
-

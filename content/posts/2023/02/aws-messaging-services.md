@@ -3,6 +3,7 @@ title: "AWS Messaging Services"
 date: 2023-02-16T19:21:00+01:00
 draft: false
 summary: Comparison of messaging services available in AWS.
+tags: ["Architecture", "Cloud Computing"]
 ---
 
 ![A ship in the sea](/2023/02/unsplash-envelopes.jpg "Envelopes we all want to receive")
@@ -203,15 +204,15 @@ Amazon EventBridge is a highly scalable and flexible service that can be used to
 
 ## Summary
 
-| Service | Key Features | Use Cases |
-|---------|--------------|-----------|
-| Amazon SNS | Publish/subscribe messaging model, supports multiple protocols, high throughput, topic-based filtering, mobile push notifications | Fan-out broadcasts, real-time notifications, serverless architectures |
-| Amazon SQS | Queue-based messaging model, supports multiple message types, scalable, high availability, dead-letter queues, visibility timeout | Decoupling application components, asynchronous processing, message retries, event-driven architecture |
-| Amazon MQ | Message broker based on Apache ActiveMQ, supports multiple messaging protocols, high availability, message persistence, message filtering | Migration of existing applications to the cloud, integration of on-premises applications with AWS |
-| Amazon MSK | Managed Apache Kafka service, supports multiple protocols, high throughput, data persistence, data replication, configurable retention | Real-time data streaming, data processing, event-driven architecture |
-| Amazon Kinesis Data Streams | Streaming data service, real-time data processing, scalable, high throughput, data partitioning, data retention | Real-time analytics, machine learning, IoT data ingestion, log processing |
-| Amazon Kinesis Data Firehose | Delivery service for streaming data, data transformation, delivery to multiple destinations, near real-time delivery, fully managed | Near real-time data delivery to Amazon S3, Amazon Redshift, and other destinations, data transformation before delivery |
-| Amazon EventBridge | Serverless event bus, event-driven architecture, multiple event sources and targets, rules engine, customizable | Automation, real-time monitoring, serverless applications, security and compliance monitoring |
+| Service                      | Key Features                                                                                                                              | Use Cases                                                                                                               |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Amazon SNS                   | Publish/subscribe messaging model, supports multiple protocols, high throughput, topic-based filtering, mobile push notifications         | Fan-out broadcasts, real-time notifications, serverless architectures                                                   |
+| Amazon SQS                   | Queue-based messaging model, supports multiple message types, scalable, high availability, dead-letter queues, visibility timeout         | Decoupling application components, asynchronous processing, message retries, event-driven architecture                  |
+| Amazon MQ                    | Message broker based on Apache ActiveMQ, supports multiple messaging protocols, high availability, message persistence, message filtering | Migration of existing applications to the cloud, integration of on-premises applications with AWS                       |
+| Amazon MSK                   | Managed Apache Kafka service, supports multiple protocols, high throughput, data persistence, data replication, configurable retention    | Real-time data streaming, data processing, event-driven architecture                                                    |
+| Amazon Kinesis Data Streams  | Streaming data service, real-time data processing, scalable, high throughput, data partitioning, data retention                           | Real-time analytics, machine learning, IoT data ingestion, log processing                                               |
+| Amazon Kinesis Data Firehose | Delivery service for streaming data, data transformation, delivery to multiple destinations, near real-time delivery, fully managed       | Near real-time data delivery to Amazon S3, Amazon Redshift, and other destinations, data transformation before delivery |
+| Amazon EventBridge           | Serverless event bus, event-driven architecture, multiple event sources and targets, rules engine, customizable                           | Automation, real-time monitoring, serverless applications, security and compliance monitoring                           |
 
 ## Take away
 

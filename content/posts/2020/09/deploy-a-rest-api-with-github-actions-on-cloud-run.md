@@ -3,6 +3,7 @@ title: "Deploy a REST API with Github Actions on Cloud Run"
 date: 2020-09-22T00:51:25+01:00
 draft: false
 summary: Thanks to Github Actions and Cloud Run, it's easier than ever to deploy Serverless REST APIs to the cloud. This is a step-by-step guide.
+tags: ["Cloud Computing", "Software"]
 ---
 
 ![A ship in the sea](/2020/09/hero-ship.jpg "A ship in the sea")
@@ -94,7 +95,7 @@ You next need to give this user rights to do stuff on your behalf. Give your Git
 
 ![Github Actions service account roles](/2020/09/gcp-setup-step-05.png)
 
-In the next step we can generate and download a key to give Github Actions to authenticate to GCP. Create a new key of type JSON. Once created you'll start downloading the key locally. **Keep it safe and do not share it publicly, or anyone can create builds and Cloud Run deploys.
+In the next step we can generate and download a key to give Github Actions to authenticate to GCP. Create a new key of type JSON. Once created you'll start downloading the key locally. \*\*Keep it safe and do not share it publicly, or anyone can create builds and Cloud Run deploys.
 
 ![Service Account new Key](/2020/09/gcp-setup-step-06.png)
 
@@ -112,10 +113,10 @@ I'll not explain how to create a new repo and push the codebase on it ;) Once do
 
 Our pipeline needs the following 2 secrets:
 
-| Name | Value to give |
-|-|-|
-| `RUN_PROJECT` | The Project ID your created |
-| `RUN_SA_KEY` | The Base64 encoded content of your downloaded key |
+| Name          | Value to give                                     |
+| ------------- | ------------------------------------------------- |
+| `RUN_PROJECT` | The Project ID your created                       |
+| `RUN_SA_KEY`  | The Base64 encoded content of your downloaded key |
 
 To get the Base64 encoded key, run the following bash command:
 
@@ -163,16 +164,16 @@ We next install ExpressJS package with `npm install --save express`. This produc
 The only difference with your result, is that I manually added line 8 to ask `npm start` to run `node index.js`. This means our web server should be in **index.js** file. Let's create a basic HTTP server in it:
 
 ```javascript
-const express = require('express');
+const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-app.get('/', (req, res) => {
+app.get("/", (req, res) => {
   res.json({ message: "Hello World!" });
 });
 
 app.listen(PORT, () => {
-  console.log('Listening on port', PORT);
+  console.log("Listening on port", PORT);
 });
 ```
 
@@ -241,7 +242,7 @@ name: Build and Deploy to Cloud Run
 on:
   push:
     branches:
-    - master
+      - master
 
 env:
   PROJECT_ID: ${{ secrets.RUN_PROJECT }}
@@ -254,32 +255,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
 
-    # Setup gcloud CLI
-    - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
-      with:
-        version: '290.0.1'
-        service_account_key: ${{ secrets.RUN_SA_KEY }}
-        project_id: ${{ secrets.RUN_PROJECT }}
+      # Setup gcloud CLI
+      - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+        with:
+          version: "290.0.1"
+          service_account_key: ${{ secrets.RUN_SA_KEY }}
+          project_id: ${{ secrets.RUN_PROJECT }}
 
-    # Build and push image to Google Container Registry
-    - name: Build
-      run: |-
-        gcloud builds submit \
-          --quiet \
-          --tag "gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA"
+      # Build and push image to Google Container Registry
+      - name: Build
+        run: |-
+          gcloud builds submit \
+            --quiet \
+            --tag "gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA"
 
-    # Deploy image to Cloud Run
-    - name: Deploy
-      run: |-
-        gcloud run deploy "$SERVICE_NAME" \
-          --quiet \
-          --region "$RUN_REGION" \
-          --image "gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA" \
-          --platform "managed" \
-          --allow-unauthenticated
+      # Deploy image to Cloud Run
+      - name: Deploy
+        run: |-
+          gcloud run deploy "$SERVICE_NAME" \
+            --quiet \
+            --region "$RUN_REGION" \
+            --image "gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA" \
+            --platform "managed" \
+            --allow-unauthenticated
 ```
 
 We first start by naming our workflow and defining its trigger condition (in this case, any new push to master branch). The reason is because we can create many workflows that trigger independently given some conditions. Those workflows are other yaml files stored in **.github/workflows/** folder.
@@ -355,4 +356,3 @@ I hope you enjoyed this post as much as I enjoyed writing it. I really would lik
 Cheers,
 
 Hassen
-

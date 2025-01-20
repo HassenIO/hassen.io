@@ -3,6 +3,7 @@ title: "iTerm2 tips, Episode 1: Jump forward and backward words in iTerm2"
 date: 2022-02-08T19:12:00+01:00
 draft: false
 summary: A quick post showing my tips on quickly jumping words in iTerm2
+tags: ["Tips"]
 ---
 
 tl;dr: This is a short practical post on how to move words forward and backward in iTerm2.

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/api/</loc>
+    <lastmod>2024-10-22T08:01:15+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/docker/</loc>
+    <lastmod>2024-10-22T08:01:15+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-10-22T08:01:15+01:00</lastmod>
   </url><url>
@@ -11,19 +17,40 @@
     <loc>http://localhost:1313/posts/2024/10/spam-assassin-as-a-service/</loc>
     <lastmod>2024-10-22T08:01:15+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-10-22T08:01:15+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2023/10/rails-the-force-awaikens/</loc>
+    <lastmod>2023-10-23T20:23:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ruby-on-rails/</loc>
+    <lastmod>2023-10-23T20:23:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/software/</loc>
     <lastmod>2023-10-23T20:23:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2023/10/ruby-on-rails-dead/</loc>
     <lastmod>2023-10-10T21:58:00+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/architecture/</loc>
+    <lastmod>2023-02-16T19:21:00+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2023/02/aws-messaging-services/</loc>
+    <lastmod>2023-02-16T19:21:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cloud-computing/</loc>
     <lastmod>2023-02-16T19:21:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2022/05/tip-debug-docker-build-fails/</loc>
     <lastmod>2022-05-08T11:24:00+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/tips/</loc>
+    <lastmod>2022-05-08T11:24:00+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2022/03/python-tuple-vs-list/</loc>
+    <lastmod>2022-03-23T00:42:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2022-03-23T00:42:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2022/02/iterm2-quick-delete/</loc>
@@ -41,17 +68,24 @@
     <loc>http://localhost:1313/posts/2019/09/create-ssl-certificates-with-custom-configuration/</loc>
     <lastmod>2019-09-28T00:31:18+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/security/</loc>
+    <lastmod>2019-09-28T00:31:18+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2019/03/strategic-testing/</loc>
     <lastmod>2019-03-06T00:21:51+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2019/02/12-week-year-book-summary/</loc>
     <lastmod>2019-02-19T23:56:57+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/book/</loc>
+    <lastmod>2019-02-19T23:56:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/productivity/</loc>
+    <lastmod>2019-02-19T23:56:57+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2019/01/hello-world/</loc>
     <lastmod>2019-01-06T20:17:15+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

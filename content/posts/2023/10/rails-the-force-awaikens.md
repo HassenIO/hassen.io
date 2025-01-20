@@ -3,6 +3,7 @@ title: "Rails: The Force Awakens - Why ReactJS Got Left in the Dust"
 date: 2023-10-23T20:23:00+01:00
 draft: false
 summary: Part II of our series about Rails awakens.
+tags: ["Ruby on Rails", "Software"]
 ---
 
 ![Join the Dark side](/2023/10/course-darth-vador.jpg "Join the dark side!")
@@ -81,4 +82,3 @@ Cheers,
 Hassen
 
 ![Stormtrooper in the sand](/2023/10/stormtrooper-walking-on-sand.jpg)
-    

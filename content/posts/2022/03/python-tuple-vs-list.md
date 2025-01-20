@@ -3,6 +3,7 @@ title: "[Python] Tuple vs. List"
 date: 2022-03-23T00:42:00+01:00
 draft: false
 summary: This is a short ar ticle to compare pythonic tuples vs lists.
+tags: ["Python", "Software"]
 ---
 
 ![A Stack of books](/2022/03/hero-stack-of-books.jpg "A stack of books")
@@ -149,7 +150,7 @@ First, notice that the size of an empty list is greater than the size of an empt
 len(l)=17, size=256, diff=72
 ```
 
-This increase is algorithmically decided and implemented; When adding the first element, Python pre-allocated 4 memory slots for integers (4*8=32) which makes things fast for the next 3 elements to be appended. However, when the 5-th element was added, it pre-allocated 4 more slots for future elements.
+This increase is algorithmically decided and implemented; When adding the first element, Python pre-allocated 4 memory slots for integers (4\*8=32) which makes things fast for the next 3 elements to be appended. However, when the 5-th element was added, it pre-allocated 4 more slots for future elements.
 
 After 9 elements, Python pre-allocated 8 slots, and 9 slots from element 17.
 

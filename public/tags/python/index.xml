@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on Hassen Taidirt</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Hassen Taidirt</description>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Mar 2022 00:42:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Python] Tuple vs. List</title>
+      <link>http://localhost:1313/posts/2022/03/python-tuple-vs-list/</link>
+      <pubDate>Wed, 23 Mar 2022 00:42:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2022/03/python-tuple-vs-list/</guid>
+      <description>This is a short ar ticle to compare pythonic tuples vs lists.</description>
+    </item>
+  </channel>
+</rss>

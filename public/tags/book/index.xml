@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Book on Hassen Taidirt</title>
+    <link>http://localhost:1313/tags/book/</link>
+    <description>Recent content in Book on Hassen Taidirt</description>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Feb 2019 23:56:57 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>12 Week Year [Book Summary]</title>
+      <link>http://localhost:1313/posts/2019/02/12-week-year-book-summary/</link>
+      <pubDate>Tue, 19 Feb 2019 23:56:57 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2019/02/12-week-year-book-summary/</guid>
+      <description>A summary of the &amp;ldquo;12 Week Year&amp;rdquo; methodology.</description>
+    </item>
+  </channel>
+</rss>

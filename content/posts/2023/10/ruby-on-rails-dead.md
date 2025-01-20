@@ -3,6 +3,7 @@ title: "Ruby on Rails is Dead!... Not So Fast, My Friend!"
 date: 2023-10-10T21:58:00+01:00
 draft: false
 summary: Talking about Ruby on Rails, and how it shines now more than before.
+tags: ["Ruby on Rails", "Software"]
 ---
 
 ![Rollercoaster](/2023/10/rollercoaster.jpg "Rollercoaster are more fun in Family")
@@ -110,4 +111,3 @@ Cheers,
 Hassen
 
 ![I want this car](/2023/10/collection-car.jpg)
-    

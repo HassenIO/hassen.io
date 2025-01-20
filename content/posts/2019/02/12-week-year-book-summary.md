@@ -3,6 +3,7 @@ title: "12 Week Year [Book Summary]"
 date: 2019-02-19T23:56:57+01:00
 draft: false
 summary: A summary of the "12 Week Year" methodology.
+tags: ["Book", "Productivity"]
 ---
 
 ![daria nepriakhina from unsplash](/2019/02/hero-daria-nepriakhina-474036-unsplash.jpg "scrum board")
@@ -11,7 +12,7 @@ Hello World!
 
 It’s really hard to summarize the [12 Week Year framework](https://amzn.to/2MqrxZe) because it’s a very rich productivity framework. I have the feeling that any summarization will skip a lot of useful information. So I’ll only highlight general concepts and actionable tips. I’ll provide at the end of the post a "Mind Map" with key information about the framework.
 
-![12 Week Year Framework (short version)](/2019/02/12-week-year.png "12 Week Year Framework mind map") 
+![12 Week Year Framework (short version)](/2019/02/12-week-year.png "12 Week Year Framework mind map")
 
 ## tl;dr
 
@@ -117,4 +118,3 @@ I personally screwed my first 12 Week Year, but it’s OK. Now I have more confi
 Cheers,
 
 Hassen
-
