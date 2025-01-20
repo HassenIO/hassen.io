@@ -63,7 +63,16 @@ EXPOSE 5000
 
 The rest is just basic configuration, nothing obscure under the sun, except for the `CMD` in which we start SpamAssassin daemon and the Python server.
 
-Speaking of the Python server, I used FastAPI, with only two REST endpoints:
+Building and running the docker container is done with the following:
+
+```sh
+docker build -t spam-detector .
+docker run --rm -p 5000:5000 spam-detector
+```
+
+This will expose the whole application through port 5000.
+
+For the Python server, I used FastAPI, with only two REST endpoints:
 
 - `POST /check` to check if the email is a Spam
 - `GET /up` as a health check
@@ -173,7 +182,13 @@ In our server, the JSON output is like the following:
 
 The nice thing is that SpamAssassin provides a report for its scoring. I really liked this because it can give explanations for a user on why his email is detected as a Spam.
 
-To test, run this for example:
+Health check is testable with:
+
+```sh
+curl http://localhost:5000/up
+```
+
+and spam detection though:
 
 ```sh
 curl -X POST "http://localhost:5000/check" \
@@ -194,12 +209,12 @@ Those packages will be installed in the Docker image on build.
 
 ## Take away
 
-This was really fun because I learned what makes an email a Spam. It's a nice and cheap internal solution, but I can imagine that a scale service if Spam-detection-as-a-service is much more complex.
+This was really fun because I learned what makes an email a Spam. It's a nice and cheap internal solution, but I can imagine that a large scale service of Spam-detection-as-a-service is much more complex.
 
-Also SpamAssassin is not bullet proof. But again, this is a nice first step for teams that send emails in big volumes and don't want to be marked as spams.
+SpamAssassin is not bullet proof. But again, this was a nice first step for teams that send emails in big volumes and don't want them to be marked as spams.
 
----
+Other solutions involve specialized SaaS applications or using LLMs to categorize messages, but those solutions can quickly get expensive depending on the emails volume.
 
-Cheers,
+See you soon.
 
 Hassen
