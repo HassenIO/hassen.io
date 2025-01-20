@@ -1,6 +1,6 @@
 baseURL: "https://hassen.io/"
 title: Hassen Taidirt
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true
