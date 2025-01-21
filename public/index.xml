@@ -9,6 +9,13 @@
     <lastBuildDate>Tue, 22 Oct 2024 08:01:15 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>CI/CD pipeline for Rails 8 with Github Actions and Kamal</title>
+      <link>http://localhost:1313/posts/2024/06/ci-cd-for-rails-8-github-actions-kamal/</link>
+      <pubDate>Tue, 22 Oct 2024 08:01:15 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2024/06/ci-cd-for-rails-8-github-actions-kamal/</guid>
+      <description>Creating a robust yet simple CI/CD pipeline for Rails 8</description>
+    </item>
+    <item>
       <title>Spam Assassin as a Service</title>
       <link>http://localhost:1313/posts/2024/10/spam-assassin-as-a-service/</link>
       <pubDate>Tue, 22 Oct 2024 08:01:15 +0100</pubDate>
