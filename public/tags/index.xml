@@ -16,6 +16,13 @@
       <description></description>
     </item>
     <item>
+      <title>DevOps</title>
+      <link>http://localhost:1313/tags/devops/</link>
+      <pubDate>Tue, 22 Oct 2024 08:01:15 +0100</pubDate>
+      <guid>http://localhost:1313/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Docker</title>
       <link>http://localhost:1313/tags/docker/</link>
       <pubDate>Tue, 22 Oct 2024 08:01:15 +0100</pubDate>
@@ -25,7 +32,7 @@
     <item>
       <title>Ruby on Rails</title>
       <link>http://localhost:1313/tags/ruby-on-rails/</link>
-      <pubDate>Mon, 23 Oct 2023 20:23:00 +0100</pubDate>
+      <pubDate>Tue, 22 Oct 2024 08:01:15 +0100</pubDate>
       <guid>http://localhost:1313/tags/ruby-on-rails/</guid>
       <description></description>
     </item>

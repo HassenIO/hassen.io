@@ -3,7 +3,7 @@ title: "CI/CD pipeline for Rails 8 with Github Actions and Kamal"
 date: 2024-10-22T08:01:15+01:00
 draft: false
 summary: Creating a robust yet simple CI/CD pipeline for Rails 8
-tags: ["API", "docker"]
+tags: ["DevOps", "Docker", "Ruby on Rails"]
 ---
 
 ![Pipes and cables on a wall](/2024/06/unsplash-pipes.jpg "Photo by Khara Woods on Unsplash")

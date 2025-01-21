@@ -6,8 +6,15 @@
     <description>Recent content in Ruby on Rails on Hassen Taidirt</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Oct 2023 20:23:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 08:01:15 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ruby-on-rails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CI/CD pipeline for Rails 8 with Github Actions and Kamal</title>
+      <link>http://localhost:1313/posts/2024/06/ci-cd-for-rails-8-github-actions-kamal/</link>
+      <pubDate>Tue, 22 Oct 2024 08:01:15 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2024/06/ci-cd-for-rails-8-github-actions-kamal/</guid>
+      <description>Creating a robust yet simple CI/CD pipeline for Rails 8</description>
+    </item>
     <item>
       <title>Rails: The Force Awakens - Why ReactJS Got Left in the Dust</title>
       <link>http://localhost:1313/posts/2023/10/rails-the-force-awaikens/</link>
